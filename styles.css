@@ -1,0 +1,20 @@
+body { 
+    background-color: #FFC0CB;
+    font-family: "Oswald", sans-serif;
+}
+
+header { 
+    background-color: rgb(255, 127, 253);
+    color: white;
+
+}
+
+a {
+    color: rgb(222, 31, 174);
+}
+
+a:hover {
+    color: rgb(227, 26, 170);
+}
+
+
