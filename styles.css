@@ -1,20 +1,110 @@
 body { 
     background-color: #FFC0CB;
     font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    text-align: center;
+
 }
 
-header { 
-    background-color: rgb(255, 127, 253);
-    color: white;
+header{ 
+    background-color: rgb(255, 159, 209);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
 
+
+.image-container {
+   width: 245px;
+   height: 285px;
+   border: 1px solid rgb(255, 255, 255);
+    background-image: url("./images/dog.png");
+    background-color: #ff86df;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+header {
+    display: flex;
+
+}
+h1{
+
+    font-size: 60px;
+}
+.title-container {
+    margin-left: 445px;
 }
 
 a {
-    color: rgb(222, 31, 174);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
-a:hover {
-    color: rgb(227, 26, 170);
+p, h2,h3,h4,h5,h6 {
+    color: white;
+    font-size: 20px;
 }
+
+
+a:hover {
+    color: rgb(255, 20, 177);
+    text-decoration: underline;
+}
+
+.font-weight {
+     font-weight: bold;
+    
+
+}
+ .font-style {
+    font-style: Oswald;
+ }
+
+
+
+
+ ul li{
+    color: floralwhite;
+    font-weight: bold;
+    
+ }
+
+
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+     text-decoration: underline;
+}
+
+
+.box { 
+background-color: rgb(254, 165, 215);
+margin: 20px auto;
+padding: 15px;
+border: 2px rgb(255, 255, 255);
+width: 40%;
+height: auto;
+box-sizing: border-box;
+
+}
+   
+
+
+   
+
+
+
+
+
+
+
+
+
+
 
 
